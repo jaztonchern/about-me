@@ -5,38 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jazton's Page</title>
+    <link href="style.css" rel="stylesheet">
 </head>
-<style>
-    li {
-        list-style-type: none;
-    }
 
-    header {
-        text-align: left;
-    }
-
-    footer {
-        text-align: center;
-    }
-
-    header li,
-    footer li {
-        display: inline;
-        margin-right: 20px;
-        clear: both;
-    }
-
-    #left {
-        width: 30%;
-        float: left;
-    }
-
-    #main {
-        width: 70%;
-        text-align: left;
-        float: left;
-    }
-</style>
+<style></style>
 
 <body>
     <header>
@@ -51,46 +23,58 @@
 
     <section id="left">
         <header>
-            <h3>
-                My Socials:
-            </h3>
+            <h1>Welcome</h1>
         </header>
+        <figure>
+            <img class="circular-portrait"
+                src="https://media.licdn.com/dms/image/D5603AQENSQb3gksSAA/profile-displayphoto-shrink_800_800/0/1675665259440?e=1699488000&v=beta&t=s-c6AxGJ3sxjzCD4Cg_11it1d1iF37YtiAfZm7HR2BE" />
+        </figure>
+        <h3>
+            My Socials:
+        </h3>
         <nav>
             <ul>
-                <li><a href="https://www.linkedin.com/in/jazton/">LinkedIn</a></li>
-                <li><a href="https://www.instagram.com/jaztonchern/">Instagram</a></li>
-                <li><a href="#">Test 1</a></li>
-                <li><a href="#">Test 2</a></li>
-                <li><a href="#">Test 3</a></li>
+                <li><a href="https://www.linkedin.com/in/jazton/"><img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png"
+                            width="20px"></a>
+                </li>
+                <li><a href="https://www.instagram.com/jaztonchern/"><img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png"
+                            width="20px"></a>
+                </li>
+                <li><a href="https://www.facebook.com/jaztonchern/"><img
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Facebook_icon_2013.svg/2048px-Facebook_icon_2013.svg.png"
+                            width="20px"></a>
+                </li>
             </ul>
         </nav>
     </section>
 
     <section id="main">
         <header>
-            <h1 style="margin-left: 200px">
-                Welcome
+            <h1 class="margin-center-align">
+                About Me
             </h1>
         </header>
         <article>
-            <h1>About Me</h1>
-            <figure>
-                <img src="https://media.licdn.com/dms/image/D5603AQENSQb3gksSAA/profile-displayphoto-shrink_800_800/0/1675665259440?e=1699488000&v=beta&t=s-c6AxGJ3sxjzCD4Cg_11it1d1iF37YtiAfZm7HR2BE"
-                    width="340px" />
-                <figcaption>Nice to meet you!</figcaption>
-            </figure>
-            <p>
-                Hi, My name is Jazton.
-            </p>
+            <h2>
+                Jazton Chern Jie Sern
+            </h2>
         </article>
 
         <article>
-            <h1></h1>
+            <h1>About Me</h1>
             <u>Master's student</u> in <em>Psychology</em>, <b>National University of Singapore</b>. <br>
+            <br>
             Research Interests:
             <ul>
-                <li>Network Modelling</li>
-                <li>Language and Information Processing</li>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Complex_network_n25_BA_model.png"
+                        width="100px">
+                    <p> Network <br>Modelling</p>
+                </li>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Language_icon.png" width="100px">
+                    <p> Language and <br> Information Processing</p>
+                </li>
             </ul>
 
 
@@ -100,20 +84,21 @@
             <h1>Personal</h1>
             My hobbies include:
             <ul>
-                <li>Music</li>
-                <li>Football</li>
-                <li>Drinking Tea</li>
+                <li><img class="bnw-img" src="music.png" width="30px">
+                    <p>Listening<br> to music</p>
+                </li>
+                <li><img class="bnw-img" src="football.png" width="30px">
+                    <p>Playing <br>football</p>
+                </li>
+                <li><img class="bnw-img" src="tea.png" width="30px">
+                    <p>Drinking <br>tea</p>
+                </li>
             </ul>
         </article>
     </section>
 
     <footer>
-        <p>Last updated: 5 September 2023</p>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-            </ul>
-        </nav>
+        <p class="red-text">Last updated: 5 September 2023</p>
     </footer>
 </body>
 
