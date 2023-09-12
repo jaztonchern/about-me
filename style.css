@@ -1,0 +1,68 @@
+.green-background {
+    background-color: lawngreen;
+}
+
+.red-text {
+    color: red;
+}
+
+.margin-center-align {
+    margin: 0 auto;
+}
+
+.text-center-align {
+    text-align: center;
+}
+
+.circular-portrait {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.circular-portrait img {
+    width: 100%;
+    height: auto;
+}
+
+.bnw-img {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-right: 10px;
+}
+
+header {
+    text-align: left;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+header li {
+    display: inline;
+    margin-right: 20px;
+    clear: both;
+}
+
+#left {
+    width: 30%;
+    float: left;
+}
+
+#main {
+    width: 70%;
+    text-align: left;
+    float: left;
+}
